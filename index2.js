@@ -12,6 +12,5 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
     console.log(req.url);
     console.log(req.method);
-    res.send('This is the home page')
+    res.send('This is the response from POST request')
 });
-

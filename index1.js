@@ -11,3 +11,7 @@ app.get('/', (req, res) => {
 app.get('/home', (req, res) => {
     res.send('This is the home page')
 })
+
+app.get('/users', (req, res) => {
+    res.send('This is the users page')
+})
