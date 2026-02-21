@@ -17,4 +17,8 @@ app.get("/id/:id/name/:name", (req, res) => {
     const id=req.params.id;
     const name=req.params.name;
     res.send(id+name);
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> 879ae8ca2c81637c2742616085ae37fb35e794b1
